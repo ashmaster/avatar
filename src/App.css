@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  margin:0;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  flex:1;
+}
+.carousel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  background-image: linear-gradient(#b422eb,#65c9ff);
+  
+}
+.Select::-webkit-scrollbar {
+  display: none;
+}
+
+.disabledWarning{
+  position: absolute;
+  top: 0;
+}
+.Select{
+  display: flex;
+  flex-direction: row;
+  margin:0 auto;
+  width: 70%;
+  overflow: auto;
+  margin-bottom: 10%;
+  border-width: 10px;
+  border-color: #000;
+}
+.button {
+  border: none;
+  color: #b422eb;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40px;
+  border-width: 10px;
+  border-color: #555555;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #555555;
+  color: white;
+}
